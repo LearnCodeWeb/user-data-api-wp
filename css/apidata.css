@@ -1,0 +1,46 @@
+/*
+* Main style of user data api
+* Author: Khalid Zaid Bin
+*/
+
+.container{
+    width: 90%;
+    max-width: 1280px;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+.form-group{
+    display: block;
+    margin-bottom: 15px;
+}
+select.form-group,
+.form-control{
+    display: block;
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.alert-error{
+    color: red;
+    padding: 5px;
+    border: 1px dotted red;
+    border-radius: 5px;
+}
+
+.btn-red{
+    color: #b12222 !important;
+    border-color:#b12222 !important;
+}
+
+
+.table-user{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.table-user tr td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}

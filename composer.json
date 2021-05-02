@@ -3,6 +3,15 @@
     "description": "Get Data Form Api WP Plugin LCW 1.0",
     "homepage": "https://learncodeweb.com/",
     "type": "wordpress-plugin",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*"
+            ]
+        }
+    ],
     "keywords": [
         "WP Plugin",
         "BS",

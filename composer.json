@@ -3,24 +3,18 @@
     "description": "Get Data Form Api WP Plugin LCW 1.0",
     "homepage": "https://learncodeweb.com/",
     "type": "wordpress-plugin",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://wpackagist.org"
-        }
-    ],
     "keywords": [
         "WP Plugin",
         "BS",
         "HTML",
         "CSS",
         "Free",
+        "wordpress",
         "Users Data",
         "Portfolio",
         "Responsive",
         "learncodeweb.com"
     ],
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Khalid Zaid Bin [Mian Zaid]",
@@ -32,6 +26,25 @@
         "issues": "https://github.com/LearnCodeWeb/user-data-api-wp/issues"
     },
     "require": {
-        "composer/installers": "1.*"
+        "php": ">=7.1.0",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "wp-content/mu-plugins/{$name}/": [
+                "wpackagist-plugin/user-data-api-wp"
+            ],
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
     }
 }

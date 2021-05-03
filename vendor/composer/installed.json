@@ -2,8 +2,8 @@
     "packages": [
         {
             "name": "composer/installers",
-            "version": "dev-main",
-            "version_normalized": "dev-main",
+            "version": "v1.11.0",
+            "version_normalized": "1.11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
@@ -31,7 +31,6 @@
                 "symfony/process": "^2.3"
             },
             "time": "2021-04-28T06:42:17+00:00",
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",

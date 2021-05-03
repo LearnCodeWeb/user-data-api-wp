@@ -27,7 +27,7 @@
 		const getSelect = jQuery('[data-user-check]:checked').map((n, i) => {
 			return i.value;
 		}).get().join(',');
-		sendAjaxData('<?= apiurl ?>users/delluser:' + getSelect, 'GET')
+		sendAjaxData('<?= apiurl ?>users/delluser:' + getSelect, 'DELETE')
 	}
 </script>
 <div class="wrap">

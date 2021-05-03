@@ -19,11 +19,11 @@ This is test plugin which is used to fetch data from other endpoint and display 
 
 2. You can install this plugin manually
     
-    a) Download the source code from GitHub.
-    b) Extract the files in any local folder.
-    c) The inside folder of downloaded zip will be user-data-api-wp-main.
-    d) Rename the inside folder user-data-api-wp-main to user-data-api-wp. [You just need to remove the last -main].
-    e) Copy and paste folder into the plugins DIR the complete path of Plugin Dir is wp-content->Plugins->PASTE YOUR PLUGIN.
+    a) Download the source code from GitHub.    
+    b) Extract the files in any local folder.    
+    c) The inside folder of downloaded zip will be user-data-api-wp-main.    
+    d) Rename the inside folder user-data-api-wp-main to user-data-api-wp. [You just need to remove the last -main].    
+    e) Copy and paste folder into the plugins DIR the complete path of Plugin Dir is wp-content->Plugins->PASTE YOUR PLUGIN.    
 
 
 # The User API

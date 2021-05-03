@@ -18,7 +18,7 @@
 	}
 	jQuery(document).ready(() => {
 		sendAjaxData('<?= apiurl ?>users/all', 'GET');
-		$('#searchForm').on("submit", () => {
+		jQuery('#searchForm').on("submit", () => {
 			sendAjaxDataForm('#searchForm', '<?= apiurl ?>users/searchdata', 'GET');
 		});
 	})

@@ -44,9 +44,9 @@ CREATE TABLE tb_users (
  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
  
 INSERT INTO tb_users (userid, username, email, status, created) VALUES
-(1, 'Zaid Bin Khalid', 'zaid_bin_khalid@hotmail.co.uk', 'active', '2021-04-25 04:57:09'),
-(2, 'Ahmad Khalid', 'ahmad@gmail.com', 'inactive', '2021-04-25 09:09:10'),
-(3, 'Zohaib Khalid', 'zohaid@gmail.com', 'inactive', '2021-04-25 09:09:10');
+(1, 'Zaid Bin Khalid', 'zaid@example.com', 'active', '2021-04-25 04:57:09'),
+(2, 'Ahmad Khalid', 'ahmad@example.com', 'inactive', '2021-04-25 09:09:10'),
+(3, 'Zohaib Khalid', 'zohaid@example.com', 'inactive', '2021-04-25 09:09:10');
 
 ALTER TABLE tb_users
   ADD PRIMARY KEY (`userid`);

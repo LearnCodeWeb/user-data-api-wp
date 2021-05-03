@@ -13,11 +13,10 @@
   array (
     'composer/installers' => 
     array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
+      'pretty_version' => 'v1.11.0',
+      'version' => '1.11.0.0',
       'aliases' => 
       array (
-        0 => '1.x-dev',
       ),
       'reference' => 'ae03311f45dfe194412081526be2e003960df74b',
     ),

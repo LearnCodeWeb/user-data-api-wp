@@ -89,7 +89,9 @@ RewriteRule ^([^\s%20]*)(?:\s|%20)+(.*)$ $1$2 [L,R]
 ```
 
 After, all the setup you can check your plugin that show users data form the mentioned database table.
+
 **Remember:**
+
 ** This plugin is depend on other end point data. For that you need to download the running example form here. Or you can use your API end point to display data in the plugin.
 
 This plugin is just for the test purpose if you want to use this you can that you.

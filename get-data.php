@@ -34,7 +34,7 @@
 	<h1 class="wp-heading-inline">Api Users Data</h1>
 	<hr class="wp-header-end">
 	<div id="message" class="updated notice">
-		<p>If data not load then click on this button. <button type="button" name="getUserData" id="getUserData" class="button" value="Get Users Data" onclick="sendAjaxData('<?= apiurl ?>users/all', 'GET')">Get Users Data</button></p>
+		<p>If data not loaded, then click on this button. <button type="button" name="getUserData" id="getUserData" class="button" value="Get Users Data" onclick="sendAjaxData('<?= apiurl ?>users/all', 'GET')">Get Users Data</button></p>
 	</div>
 	<h2 class="screen-reader-text">Filter users list</h2>
 	<form method="get" id="searchForm" onsubmit="return false;">

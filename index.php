@@ -25,4 +25,7 @@
 include_once('vendor/autoload.php');
 include_once('url_path_config.php');
 
-new getUserData($url[1]);
+$pluginFileURL =   isset($url[1]) ? $url[1] : 'user-data-api-wp/get-data.php
+';
+
+new getUserData($pluginFileURL);

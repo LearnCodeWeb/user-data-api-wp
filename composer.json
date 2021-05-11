@@ -35,7 +35,10 @@
     "autoload": {
         "psr-0": {
             "Acme": "src/"
-        }
+        },
+        "classmap": [
+            "./api-data-functions.php"
+        ]
     },
     "extra": {
         "installer-paths": {

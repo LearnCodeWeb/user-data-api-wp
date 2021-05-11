@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(E_ALL);
 $version        =   "1.0.0";
 $authorName     =   'Zaid';
 
